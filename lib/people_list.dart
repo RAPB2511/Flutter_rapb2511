@@ -27,7 +27,7 @@ class _PeopleListState extends State<PeopleList> {
         return Column(
           children: [
             ListTile(
-              tileColor: esPar ? Colors.red[100] : Colors.blue[100],
+              tileColor: esPar ? Colors.red[100] : Colors.blue[100], //aqui en funcion de si es par o impar el color de fondo sera rojo o azul
               title: Text(_suggestions[i], style: _biggerFont),
               onTap: () {
                 //Aqui se le dice que si se presiona el nombre se muestre el mismo en la parte inferior de la pantalla con el nombre seleccionado
